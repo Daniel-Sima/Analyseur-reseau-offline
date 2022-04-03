@@ -1,0 +1,172 @@
+No.     Time           Source                Destination           Protocol Length Info
+    119 8.934346       10.64.8.82            134.157.0.129         DNS      73     Standard query 0x4f38 A www.apple.com
+
+Frame 119: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface en0, id 0
+    Interface id: 0 (en0)
+        Interface name: en0
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Dec  9, 2021 10:53:28.916488000 CET
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1639043608.916488000 seconds
+    [Time delta from previous captured frame: 0.018164000 seconds]
+    [Time delta from previous displayed frame: 0.018164000 seconds]
+    [Time since reference or first frame: 8.934346000 seconds]
+    Frame Number: 119
+    Frame Length: 73 bytes (584 bits)
+    Capture Length: 73 bytes (584 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:dns]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: Apple_a9:4c:9b (38:f9:d3:a9:4c:9b), Dst: Fortinet_09:00:02 (00:09:0f:09:00:02)
+    Destination: Fortinet_09:00:02 (00:09:0f:09:00:02)
+        Address: Fortinet_09:00:02 (00:09:0f:09:00:02)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Apple_a9:4c:9b (38:f9:d3:a9:4c:9b)
+        Address: Apple_a9:4c:9b (38:f9:d3:a9:4c:9b)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.64.8.82, Dst: 134.157.0.129
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 59
+    Identification: 0xfea7 (65191)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment Offset: 0
+    Time to Live: 64
+    Protocol: UDP (17)
+    Header Checksum: 0xe25a [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.64.8.82
+    Destination Address: 134.157.0.129
+User Datagram Protocol, Src Port: 58074, Dst Port: 53
+    Source Port: 58074
+    Destination Port: 53
+    Length: 39
+    Checksum: 0x60b1 [unverified]
+    [Checksum Status: Unverified]
+    [Stream index: 7]
+    [Timestamps]
+        [Time since first frame: 0.000000000 seconds]
+        [Time since previous frame: 0.000000000 seconds]
+    UDP payload (31 bytes)
+Domain Name System (query)
+    Transaction ID: 0x4f38
+    Flags: 0x0100 Standard query
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data: Unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        www.apple.com: type A, class IN
+            Name: www.apple.com
+            [Name Length: 13]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    [Response In: 127]
+
+0000  00 09 0f 09 00 02 38 f9 d3 a9 4c 9b 08 00 45 00   ......8...L...E.
+0010  00 3b fe a7 00 00 40 11 e2 5a 0a 40 08 52 86 9d   .;....@..Z.@.R..
+0020  00 81 e2 da 00 35 00 27 60 b1 4f 38 01 00 00 01   .....5.'`.O8....
+0030  00 00 00 00 00 00 03 77 77 77 05 61 70 70 6c 65   .......www.apple
+0040  03 63 6f 6d 00 00 01 00 01                        .com.....
+
+
+No.     Time           Source                Destination           Protocol Length Info
+    128 9.137934       134.157.0.129         10.64.8.82            DNS      541    Standard query response 0x00f9 A api.apple-cloudkit.com CNAME api.apple-cloudkit.fe.apple-dns.net A 17.248.148.13 A 17.248.148.16 A 17.248.148.46 A 17.248.148.74 A 17.248.148.78 A 17.248.148.79 A 17.248.148.105 A 17.248.148.106 NS ns-287.awsdns-35.com NS ns-1572.awsdns-04.co.uk NS ns-748.awsdns-29.net NS ns-1124.awsdns-12.org A 205.251.193.31 AAAA 2600:9000:5301:1f00::1 A 205.251.194.236 AAAA 2600:9000:5302:ec00::1 A 205.251.196.100 AAAA 2600:9000:5304:6400::1 A 205.251.198.36
+
+Frame 128: 541 bytes on wire (4328 bits), 541 bytes captured (4328 bits) on interface en0, id 0
+Ethernet II, Src: Fortinet_09:00:02 (00:09:0f:09:00:02), Dst: Apple_a9:4c:9b (38:f9:d3:a9:4c:9b)
+Internet Protocol Version 4, Src: 134.157.0.129, Dst: 10.64.8.82
+User Datagram Protocol, Src Port: 53, Dst Port: 56029
+Domain Name System (response)
+    Transaction ID: 0x00f9
+    Flags: 0x8180 Standard query response, No error
+    Questions: 1
+    Answer RRs: 9
+    Authority RRs: 4
+    Additional RRs: 7
+    Queries
+        api.apple-cloudkit.com: type A, class IN
+            Name: api.apple-cloudkit.com
+            [Name Length: 22]
+            [Label Count: 3]
+            Type: A (Host Address) (1)
+            Class: IN (0x0001)
+    Answers
+        api.apple-cloudkit.com: type CNAME, class IN, cname api.apple-cloudkit.fe.apple-dns.net
+        api.apple-cloudkit.fe.apple-dns.net: type A, class IN, addr 17.248.148.13
+        api.apple-cloudkit.fe.apple-dns.net: type A, class IN, addr 17.248.148.16
+        api.apple-cloudkit.fe.apple-dns.net: type A, class IN, addr 17.248.148.46
+        api.apple-cloudkit.fe.apple-dns.net: type A, class IN, addr 17.248.148.74
+        api.apple-cloudkit.fe.apple-dns.net: type A, class IN, addr 17.248.148.78
+        api.apple-cloudkit.fe.apple-dns.net: type A, class IN, addr 17.248.148.79
+        api.apple-cloudkit.fe.apple-dns.net: type A, class IN, addr 17.248.148.105
+        api.apple-cloudkit.fe.apple-dns.net: type A, class IN, addr 17.248.148.106
+    Authoritative nameservers
+        fe.apple-dns.net: type NS, class IN, ns ns-287.awsdns-35.com
+        fe.apple-dns.net: type NS, class IN, ns ns-1572.awsdns-04.co.uk
+        fe.apple-dns.net: type NS, class IN, ns ns-748.awsdns-29.net
+        fe.apple-dns.net: type NS, class IN, ns ns-1124.awsdns-12.org
+    Additional records
+        ns-287.awsdns-35.com: type A, class IN, addr 205.251.193.31
+        ns-287.awsdns-35.com: type AAAA, class IN, addr 2600:9000:5301:1f00::1
+        ns-748.awsdns-29.net: type A, class IN, addr 205.251.194.236
+        ns-748.awsdns-29.net: type AAAA, class IN, addr 2600:9000:5302:ec00::1
+        ns-1124.awsdns-12.org: type A, class IN, addr 205.251.196.100
+        ns-1124.awsdns-12.org: type AAAA, class IN, addr 2600:9000:5304:6400::1
+        ns-1572.awsdns-04.co.uk: type A, class IN, addr 205.251.198.36
+    [Request In: 120]
+    [Time: 0.203244000 seconds]
+
+0000  38 f9 d3 a9 4c 9b 00 09 0f 09 00 02 08 00 45 00   8...L.........E.
+0010  02 0f d5 28 00 00 3e 11 0c 06 86 9d 00 81 0a 40   ...(..>........@
+0020  08 52 00 35 da dd 01 fb b8 e6 00 f9 81 80 00 01   .R.5............
+0030  00 09 00 04 00 07 03 61 70 69 0e 61 70 70 6c 65   .......api.apple
+0040  2d 63 6c 6f 75 64 6b 69 74 03 63 6f 6d 00 00 01   -cloudkit.com...
+0050  00 01 c0 0c 00 05 00 01 00 00 30 88 00 25 03 61   ..........0..%.a
+0060  70 69 0e 61 70 70 6c 65 2d 63 6c 6f 75 64 6b 69   pi.apple-cloudki
+0070  74 02 66 65 09 61 70 70 6c 65 2d 64 6e 73 03 6e   t.fe.apple-dns.n
+0080  65 74 00 c0 34 00 01 00 01 00 00 00 27 00 04 11   et..4.......'...
+0090  f8 94 0d c0 34 00 01 00 01 00 00 00 27 00 04 11   ....4.......'...
+00a0  f8 94 10 c0 34 00 01 00 01 00 00 00 27 00 04 11   ....4.......'...
+00b0  f8 94 2e c0 34 00 01 00 01 00 00 00 27 00 04 11   ....4.......'...
+00c0  f8 94 4a c0 34 00 01 00 01 00 00 00 27 00 04 11   ..J.4.......'...
+00d0  f8 94 4e c0 34 00 01 00 01 00 00 00 27 00 04 11   ..N.4.......'...
+00e0  f8 94 4f c0 34 00 01 00 01 00 00 00 27 00 04 11   ..O.4.......'...
+00f0  f8 94 69 c0 34 00 01 00 01 00 00 00 27 00 04 11   ..i.4.......'...
+0100  f8 94 6a c0 47 00 02 00 01 00 00 67 fb 00 13 06   ..j.G......g....
+0110  6e 73 2d 32 38 37 09 61 77 73 64 6e 73 2d 33 35   ns-287.awsdns-35
+0120  c0 1f c0 47 00 02 00 01 00 00 67 fb 00 19 07 6e   ...G......g....n
+0130  73 2d 31 35 37 32 09 61 77 73 64 6e 73 2d 30 34   s-1572.awsdns-04
+0140  02 63 6f 02 75 6b 00 c0 47 00 02 00 01 00 00 67   .co.uk..G......g
+0150  fb 00 13 06 6e 73 2d 37 34 38 09 61 77 73 64 6e   ....ns-748.awsdn
+0160  73 2d 32 39 c0 54 c0 47 00 02 00 01 00 00 67 fb   s-29.T.G......g.
+0170  00 17 07 6e 73 2d 31 31 32 34 09 61 77 73 64 6e   ...ns-1124.awsdn
+0180  73 2d 31 32 03 6f 72 67 00 c0 e5 00 01 00 01 00   s-12.org........
+0190  01 b9 7c 00 04 cd fb c1 1f c0 e5 00 1c 00 01 00   ..|.............
+01a0  01 b9 7c 00 10 26 00 90 00 53 01 1f 00 00 00 00   ..|..&...S......
+01b0  00 00 00 00 01 c1 29 00 01 00 01 00 01 b9 7c 00   ......).......|.
+01c0  04 cd fb c2 ec c1 29 00 1c 00 01 00 01 b9 7c 00   ......).......|.
+01d0  10 26 00 90 00 53 02 ec 00 00 00 00 00 00 00 00   .&...S..........
+01e0  01 c1 48 00 01 00 01 00 01 b9 7c 00 04 cd fb c4   ..H.......|.....
+01f0  64 c1 48 00 1c 00 01 00 01 b9 7c 00 10 26 00 90   d.H.......|..&..
+0200  00 53 04 64 00 00 00 00 00 00 00 00 01 c1 04 00   .S.d............
+0210  01 00 01 00 01 b9 7c 00 04 cd fb c6 24            ......|.....$
