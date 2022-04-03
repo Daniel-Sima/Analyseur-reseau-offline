@@ -2,8 +2,7 @@
 =============================================================
 ### Réalisation d’un analyseur basé sur Wireshark  
 =============================================================  
-Exécuter le programme comme ceci:  
-Tapper sur la ligne de commande:  
+Exécuter le programme sur la ligne de commande comme ceci:  
 1. `python3 Graphique.py`  
 2. Choisir le fichier `.txt` avec les trames à analyser  
   
